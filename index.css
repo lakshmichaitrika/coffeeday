@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Dancing+Script&family=Playfair+Display&family=Poppins:ital,wght@0,400;1,300&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+    font-family: 'Dancing Script', cursive;
+
+
+}
+
+h2{
+    font-family: 'Playfair Display', serif;
+
+}
+
+nav{
+    background: #d48f27;
+}
+
+.logo{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.menu-section:hover{
+background-color: black;
+opacity: 0.25;
+color: white;
+
+}
+
+li:hover{
+    background-color: rgb(233, 237, 240);
+    border-radius: 10px;
+
+}
+.main-header{
+    background-image: url("header.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.coffee-button{
+    background-color: #d48f27;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+}
+.coffee-button:hover{
+    background-color: transparent;
+    border: 2px solid  #d48f27;
+    color: black;
+    border-radius: 10px;
+  
+    
+}
+.cut{
+    position: relative;
+}
+.des{
+    position: absolute;
+    top:0;
+    padding: 20px;
+    z-index: -1;
+    width: 100%;
+}
+.section{
+    height: auto;
+
+    padding: 10px;
+}
+
+
+.contact{
+    border: 2px solid #d48f27;
+}
+span{
+    color: #d48f27;
+    font-weight: 700;
+}
+.about-us img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.about-us img:hover{
+    object-position: bottom;
+}
+
+.types{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.types:hover{
+    width: 0;
+    height: 300px;
+    padding-bottom: 90px;
+}
+
+.menu{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.rating{
+    color: #d48f27;
+}
+.footer{
+    background-color: #d48f27;
+    height: 100px;
+}
+.footer-logo{
+    width: 200px;
+}
+ul{
+    list-style-type: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.actual{
+    text-decoration: line-through;
+}
+.move{
+    position: fixed;
+    bottom: 40px;
+    border: 2px solid;
+    padding: 10px;
+    color: black;
+    right: 10px;
+    border-radius: 20px;
+}
